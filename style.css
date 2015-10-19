@@ -1,0 +1,339 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*
+Colours 
+blue - rgb(27, 30, 73);
+*/
+
+
+/* HTML */
+
+
+html {
+	font-size: 62.5%;
+	font-family: "raleway", sans-serif;
+	font-weight: 300;
+}
+
+
+/* HEADER SECTION */
+
+.wrapper {
+	height: 60vh;
+	margin: 0;
+	max-width: 100%;
+}
+
+
+.name {
+	width: 47%;
+	margin: 40vh auto 0 auto;
+
+}
+
+div.tiffany {
+	width: 50%;
+	position: relative;
+	z-index: 9999;
+
+}
+
+ img.tiffany {
+	max-width: 50%;
+
+}
+
+ img.danielle {
+	max-width: 50%;
+	position: relative;
+	bottom: 55px;
+}
+
+h2 {
+	position: relative;
+	bottom: 92px;
+	left: 732px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.7rem;
+	color: gunmetal;
+	display: inline-block;
+}
+
+
+/* NAVIGATION SECTION */
+
+
+nav {
+	min-height: 20vh;
+	background-color: rgb(27, 30, 73);
+}
+
+nav ul {
+	margin: 0;
+	padding: 8vh 0 0 0;
+	text-align: center;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	color: grey;
+	font-size: 1.7rem;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	height: 20px;
+	width: 20px;
+	margin: 5px;
+	font-size: 2rem;
+	font-variant: small-caps;
+	font-weight: 500;
+	letter-spacing: 4px;
+	padding: 5px;
+}
+	 
+	nav a:hover {
+		color: black;
+		background-color: white;
+		border-radius: 3px;
+	}
+
+
+/* ABOUT SECTION */
+
+
+div.project1, 
+div.project2 {	
+	width: 80%;
+	margin: 0 auto;
+	padding: 95px 0;
+}
+
+div.project1 img {
+	width: 35%;
+	float: left;
+	margin: 0 auto;
+}
+
+.shadow {
+	position: relative;
+}
+
+.triangle {
+	z-index: 0;
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 200px 200px 0 0;
+	border-color: rgba(50, 50, 50, 0.7) transparent transparent transparent;
+}
+
+div.text1 {
+	float: left;
+	width: 62%;
+	margin: 0 0 0 3%;
+}
+
+h3 {
+	font-size: 3rem;
+	font-weight: 500;
+	color: rgb(27, 30, 73);
+	margin: 0 0 5px 0;
+}
+
+div.text1 h3 {
+	text-align: left;
+}
+
+div.project1 p {
+	text-align: left;
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: grey;
+	line-height: 2.5rem;
+}
+
+
+div.project1 a {
+	color: rgb(27, 30, 73);
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: bold;
+}
+
+	div.project1 a:hover {
+		color: white;
+		background-color: black;
+	}
+
+
+/* TORONTO PHOTO SECTION */
+
+
+div.photo {
+	background: url(images/toronto.jpg) no-repeat fixed;
+	background-size: cover;
+	padding: 20vh;
+}
+
+div.color {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+}
+
+
+/* SKILLS SECTION */
+
+
+div.text2 h3 {
+	text-align: center;
+}
+
+div.text2 {
+	width: 95%;
+	margin: 0 auto;
+}
+
+div.project2 ul {
+	padding: 20px 0 0 0;
+	width: 85%;
+	margin: 0 auto;
+}
+
+div.project2 ul li {
+	list-style: none;
+	color: rgb(27, 30, 73);
+	font-size: 8rem;
+	display: inline-block;
+	text-align: center;
+	padding: 0 10px;
+}
+
+
+
+
+/* BLOG SECTION */
+
+
+div.blog {
+	min-height: 50vh;
+	max-width: 100%;
+}
+
+div.blog h3 {
+	text-align: left;
+}
+
+div.blog h4 {
+	text-align: left;
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: rgb(27, 30, 73);
+	margin: 5px 0 5px 0;
+}
+
+div.text3 {
+	float: left;
+	width: 62%;
+	margin: 0 3px 0 0;
+}
+
+
+/* IMAGE IN BLOG SECTION */
+
+
+div.blog img {
+	width: 35%;
+	float: right;
+	margin: 0 auto;
+}
+
+.same {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 200px 200px;
+	border-color: transparent transparent rgba(50, 50, 50, 0.7) transparent;
+	position: absolute;
+	bottom: -5px;
+	right: -15px;
+	top: 80px
+}
+
+
+/* SOCIAL SECTION */
+
+
+div.social {
+	min-height: 200px; 
+	background-color: rgb(27, 30, 73);
+}
+
+div.wrap {
+	width: 30%;
+	margin: 0 auto;
+}
+
+div.social a {
+	color: grey;
+}
+
+	div.social a:hover {
+		color: white;
+	}
+
+div.social h4 {
+	font-size: 1.3rem;
+	color: grey;
+	text-align: center;
+	margin: 50px 0 0 0;
+	font-family: "raleway", sans-serif;
+	font-weight: 200;
+}
+
+div.social ul li {
+	list-style: none;
+	float: left;
+	width: 20%;
+}
+
+div.social ul {
+	padding: 10vh 0 0 0;
+}
+
+div.social i {
+	font-size: 4rem;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+
+
+/*------MEDIA QUERIES-----------*/
+
+
+
+@media all and (max-width: 1350px) {
+	h2 {
+		left: 670;
+	}
+}
+
+@media all and (max-width: 1265px) {
+	img.tiffany {
+		top: 0;
+		left: 0;
+	}
+}
